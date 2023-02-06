@@ -21,6 +21,14 @@ n the BRFSS data, generally these values are 7 or 77=Don’t know/Not sure, 9 or
 selected because they represented 95% of the BMI distribution in the data. 
 
 
+The datasets contain 3 files: 
+1. Training Set
+2. Validation/Evaluation Set
+3. Testing Set
+
+Data are trained on the Training Set and validated on the Evaluation set. Tuning is performed. Later, the Training and Validation set are combined to 
+provide the training Set which is then trained in its entirety. Finally, this model is tested on the Testing set. 
+
 
 References
 
